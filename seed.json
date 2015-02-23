@@ -1,0 +1,5 @@
+{
+	"undefined": "localhost/custom_facts",
+	"dev": "localhost/custom_facts",
+	"prod": "localhost/custom_facts"
+}
