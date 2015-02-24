@@ -4,5 +4,9 @@
  * Module dependencies.
  */
 var mongoose = require('mongoose'),
-  Article = mongoose.model('Article'),
+  AboutThing = mongoose.model('AboutThing'),
   _ = require('lodash');
+
+exports.show = function(req, res) {
+  res.json(req.article);
+};
